@@ -75,7 +75,7 @@
     "react-native-gesture-handler": "~2.16.1",
     "react-native-reanimated": "~3.10.1",
     "react-native-svg": "15.2.0",
-    "typescript": "^5.9.2"
+    "typescript": "^5.3.3"
   },
   "peerDependencies": {
     "react": "*",
@@ -128,8 +128,7 @@
     "output": "lib",
     "targets": [
       "commonjs",
-      "module",
-      "typescript"
+      "module"
     ]
   },
   "sideEffects": false
