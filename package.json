@@ -1,7 +1,6 @@
 {
-  "name": "react-native-wagmi-charts",
-  "version": "2.7.1",
-  "private": true,
+  "name": "@mbaodev/react-native-wagmi-charts",
+  "version": "2.7.1-custom.1",
   "description": "A sweet candlestick chart for React Native",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
@@ -15,7 +14,9 @@
     "prepare": "bob build",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
-    "bootstrap": "yarn example && yarn && yarn pods"
+    "bootstrap": "yarn example && yarn && yarn pods",
+    "build": "bob build",
+    "prepublishOnly": "yarn build"
   },
   "files": [
     "src",
